@@ -1,4 +1,4 @@
 
 
 
-## npm install -D tailwindcss
+## npm install sass
