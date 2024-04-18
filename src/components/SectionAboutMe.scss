@@ -1,0 +1,35 @@
+$fz: monospace;
+$photo: url('../images/fly-w0man.png');
+
+#about-me {
+    position: absolute;
+    left: 0;
+    right: 0;
+}
+
+.about-me-title {
+    text-align: center;
+    font-family: $fz;
+    font-size: 36px;
+    color: #fff;
+}
+
+.about-me-info {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-info-box {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    text-wrap: wrap;
+    color: #fff;
+}
+
+.about-me-info-img {
+    width: 500px;
+    height: 500px;
+    background-image: $photo;
+    background-size: contain;
+}
