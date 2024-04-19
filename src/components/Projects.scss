@@ -1,0 +1,25 @@
+.projects-title {
+    margin-top: 130px;
+    color: #fff;
+    text-align: center;
+    font-size: 36px;
+}
+
+.slider-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(220, 220, 85);
+}
+
+.slider {
+    border: 1px solid rgb(45, 45, 165);
+    width: 500px;
+    height: 500px;
+    background-color: #fff;
+    img {
+        margin: auto;
+        width: 400px;
+        height: 400px;
+    }
+}

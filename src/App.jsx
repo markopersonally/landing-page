@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Projects from "./components/Projects";
 import SectionAboutMe from "./components/SectionAbouteMe";
 
 const App = ()=> {
@@ -6,6 +7,7 @@ const App = ()=> {
     <>
       <Header/>
       <SectionAboutMe/>
+      <Projects/>
     </>
   );
 }
