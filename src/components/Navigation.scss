@@ -1,0 +1,52 @@
+#navBar {
+    position: relative;
+    height: 100%;
+}
+
+.navBar-box {
+    height: 500px;
+    width: 700px;
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+    list-style: none;
+    font-size: 25px;
+    z-index: 2;
+}
+
+li {
+    border: 1px solid red;
+    border-radius: 50%;
+    position: absolute;
+    padding: 20px;
+    background-color: red;
+}
+
+.navBar-home {
+    left: 42%;
+    top: -7%;
+}
+
+.navBar-aboutMe {
+    left: -10%;
+    top: 40%;
+}
+
+.navBar-myprojects {
+    left: 35%;
+    bottom: -7%;
+}
+
+.navBar-contact {
+    right: -10%;
+    top: 40%;
+}
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
