@@ -17,16 +17,16 @@ const Projects = () => {
         <div className="slider-container">
             <Slider className="slider" {...settings}>
                 <div>
-                    <img src="../images/fantasy-art.png"/>
+                    <div className="slider-img"></div>
                 </div>
                 <div>
-                    <img src="../images/witch.png"/>
+                    <div className="slider-img"></div>
                 </div>
                 <div>
-                    <img src="../images/witch.png"/>
+                    <div className="slider-img"></div>
                 </div>
                 <div>
-                    <img src="../images/witch.png"/>
+                    <div className="slider-img"></div>
                 </div>
             </Slider>
         </div>
