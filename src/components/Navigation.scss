@@ -1,71 +1,31 @@
 #navBar {
-    position: relative;
-    height: 100%;
-}
-
-.navBar-box {
-    height: 500px;
-    width: 700px;
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-transform: uppercase;
-    list-style: none;
-    font-size: 25px;
+    color: #fff;  
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
     z-index: 2;
 }
 
-@media (max-width: 920px) {
-    .navBar-box {
-        border: none;
-        position: relative;
-        display: flex;
-        li {
-            display: flex;
+.navBar-box {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 36px;
+    li {
+        list-style: none;
+        a {
+            color:#fff;
+            text-decoration: none;
+        }
+        a:hover {
+            transition: .5s ease-in;
+            color:#e607dae4;
         }
     }
 }
 
-
-a:hover{
-    transition: 1s ease-in;
-    border-color: #e607dae4;
-    color:#e607dae4;
-    background-color: #00000068;
-}
-
-li {
-    border: 1px solid #fff;
-    border-radius: 50%;
-    position: absolute;
-    padding: 20px;
-    background-color: #000;
-}
-
-.navBar-home {
-    left: 42%;
-    top: -7%;
-}
-
-.navBar-aboutMe {
-    left: -10%;
-    top: 40%;
-}
-
-.navBar-myprojects {
-    left: 35%;
-    bottom: -7%;
-}
-
-.navBar-contact {
-    right: -10%;
-    top: 40%;
-}
-
-a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
+// .navBar-box {
+// }
