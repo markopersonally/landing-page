@@ -9,13 +9,37 @@ $photo: url('../images/fly-w0man.png');
 .about-me-info {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .about-me-info-box {
+    font-size: 24px;
+    text-align: center;
     display: flex;
     flex-direction: column;
     width: 500px;
     text-wrap: wrap;
+    color: #fff;
+}
+
+.about-me-info-title {
+    text-transform: uppercase;
+}
+
+.about-me-btn {
+    font-size: 15px;
+    padding: 10px;
+    margin: 0 auto;
+    width: 150px;
+    border-radius: 20px;
+    border: #fff;
+    color: #e607dae4;
+    transition: all 1s ease-out;
+}
+
+.about-me-btn:hover {
+    cursor: pointer;
+    background-color: #e607dae4;
     color: #fff;
 }
 
@@ -24,4 +48,16 @@ $photo: url('../images/fly-w0man.png');
     height: 500px;
     background-image: $photo;
     background-size: contain;
+}
+
+.content {
+    text-align: center;
+    width: 500px;
+    height: 250px;
+    background-color: #000000ec;
+    padding: 30px;
+    border: 1px solid #fff;
+    border-radius: 20px;
+    color: #fff;
+    position: absolute;
 }
