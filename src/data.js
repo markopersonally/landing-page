@@ -11,53 +11,17 @@ import next from "./images/next.png";
 import office from "./images/office.png";
 import bs from "./images/bootstrap.png";
 
-export const SKILLS = {
-  html: {
-    title: "HTML",
-    img: { html },
-  },
-  css: {
-    title: "CSS",
-    img: { css },
-  },
-  tw: {
-    title: "tw",
-    img: { tw },
-  },
-  sc: {
-    title: "sc",
-    img: { sc },
-  },
-  react: {
-    title: "react",
-    img: { react },
-  },
-  bs: {
-    title: "bs",
-    img: { bs },
-  },
-  java: {
-    title: "java",
-    img: { java },
-  },
-  php: {
-    title: "php",
-    img: { php },
-  },
-  js: {
-    title: "js",
-    img: { js },
-  },
-  next: {
-    title: "next",
-    img: { next },
-  },
-  office: {
-    title: "office",
-    img: { office },
-  },
-  ts: {
-    title: "ts",
-    img: { ts },
-  },
-};
+export const SKILLS = [
+  { title: "HTML", img: html },
+  { title: "CSS", img: css },
+  { title: "Tailwind CSS", img: tw },
+  { title: "Styled Components", img: sc },
+  { title: "React", img: react },
+  { title: "Bootstrap", img: bs },
+  { title: "Java", img: java },
+  { title: "PHP", img: php },
+  { title: "JavaScript", img: js },
+  { title: "Next.js", img: next },
+  { title: "Microsoft Office", img: office },
+  { title: "TypeScript", img: ts },
+];
