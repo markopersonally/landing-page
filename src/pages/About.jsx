@@ -1,6 +1,8 @@
+import aboutImg from "../images/fly-w0man.png";
+
 export default function About() {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="py-12 mx-10">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className="bg-white p-6 rounded-lg shadow-md text-center">
@@ -23,11 +25,10 @@ export default function About() {
             </p>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row items-center">
-          {/* Zdjęcie */}
+        <div className="flex flex-col md:flex-row items-center text-center">
           <div className="md:w-1/2 mb-8 md:mb-0">
             <img
-              src="./images/about-image.jpg"
+              src={aboutImg}
               alt="About Us"
               className="w-full h-auto rounded-lg shadow-lg"
             />

@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+import { useState } from "react";
+import logo from "../images/logo.png";
 
 export default function Navigation() {
   const [isOpen, setIsOpen] = useState(false);
@@ -8,11 +9,8 @@ export default function Navigation() {
     <nav className="bg-gray-900 p-4">
       <div className="container mx-auto flex justify-between items-center">
         <div className="text-white text-2xl font-bold">
-          <img src="" alt="logo" className="h-10 inline-block mr-2" />
-          Logo
+          <img src={logo} alt="logo" className="h-10 inline-block mr-2" />
         </div>
-
-        {/* Hamburger button for mobile view */}
         <button
           className="block md:hidden text-white focus:outline-none"
           onClick={() => setIsOpen(!isOpen)}
@@ -32,8 +30,6 @@ export default function Navigation() {
             ></path>
           </svg>
         </button>
-
-        {/* Main navigation */}
         <ul
           className={`md:flex md:space-x-8 items-center absolute md:relative left-0 right-0 top-16 md:top-auto bg-gray-900 md:bg-transparent p-4 md:p-0 ${
             isOpen ? "block" : "hidden"
