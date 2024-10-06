@@ -5,20 +5,20 @@ export default function Contact() {
     <section className="py-12 mx-10">
       <div className="container mx-auto px-6">
         <div className="text-center mb-12">
-          <h2 className="text-3xl font-bold">Get in Touch</h2>
-          <p className="text-gray-700 mt-4">
+          <h2 className="text-3xl font-bold text-violet-600">Get in Touch</h2>
+          <p className="text-violet-200 mt-4">
             We would love to hear from you. Reach out to us for any queries or
             assistance.
           </p>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-4">Contact Information</h3>
-            <p className="text-gray-700 mb-6">
+            <h3 className="text-2xl font-semibold mb-4 text-violet-600">Contact Information</h3>
+            <p className="text-violet-500 mb-6">
               Feel free to contact us via phone, email, or visit our office
               during working hours.
             </p>
-            <ul className="text-gray-700">
+            <ul className="text-violet-700">
               <li className="mb-4">
                 <span className="font-bold">Address:</span> 1234 Example Street,
                 City, Country
@@ -36,10 +36,10 @@ export default function Contact() {
             </ul>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-md">
-            <h3 className="text-2xl font-semibold mb-4">Send Us a Message</h3>
+            <h3 className="text-2xl font-semibold mb-4 text-violet-700">Send Us a Message</h3>
             <form action="#" method="POST">
               <div className="mb-4">
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-violet-700 font-semibold mb-2">
                   Name
                 </label>
                 <input
@@ -50,7 +50,7 @@ export default function Contact() {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-violet-700 font-semibold mb-2">
                   Email
                 </label>
                 <input
@@ -61,7 +61,7 @@ export default function Contact() {
                 />
               </div>
               <div className="mb-4">
-                <label className="block text-gray-700 font-semibold mb-2">
+                <label className="block text-violet-700 font-semibold mb-2">
                   Message
                 </label>
                 <textarea
@@ -73,7 +73,7 @@ export default function Contact() {
               </div>
               <button
                 type="submit"
-                className="w-full bg-blue-500 text-white py-3 rounded-lg hover:bg-blue-600 transition duration-300"
+                className="w-full bg-violet-500 text-white py-3 rounded-lg hover:bg-violet-600 transition duration-300"
               >
                 Send Message
               </button>
