@@ -10,9 +10,12 @@ export default function Home() {
         <h1 className="text-4xl text-violet-400 font-bold mb-4 z-10">
           Welcome to our agency!
         </h1>
-        <button className="px-6 py-3 bg-violet-500 text-white font-semibold rounded hover:bg-violet-600 transition duration-300">
+        <a
+          href="#services"
+          className="px-6 py-3 bg-violet-500 text-white font-semibold rounded hover:bg-violet-600 transition duration-300"
+        >
           Explore More
-        </button>
+        </a>
       </div>
     </div>
   );

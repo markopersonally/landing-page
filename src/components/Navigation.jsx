@@ -36,22 +36,22 @@ export default function Navigation() {
           }`}
         >
           <li>
-            <a href="#" className={liStyle}>
+            <a href="/" className={liStyle}>
               Home
             </a>
           </li>
           <li>
-            <a href="#" className={liStyle}>
+            <a href="#about" className={liStyle}>
               About
             </a>
           </li>
           <li>
-            <a href="#" className={liStyle}>
+            <a href="#services" className={liStyle}>
               Services
             </a>
           </li>
           <li>
-            <a href="#" className={liStyle}>
+            <a href="#contact" className={liStyle}>
               Contact
             </a>
           </li>

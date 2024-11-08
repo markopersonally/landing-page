@@ -6,7 +6,7 @@ export default function About() {
   const textOrders = "text-zinc-600";
 
   return (
-    <section className="py-12 mx-10">
+    <section id="about" className="py-12 mx-10">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
           <div className={divOrders}>

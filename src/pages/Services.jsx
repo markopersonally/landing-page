@@ -7,7 +7,7 @@ export default function Services() {
     "inline-block px-6 py-2 bg-violet-500 text-white font-semibold rounded hover:bg-violet-800 transition duration-300";
 
   return (
-    <section className="py-12 mx-10">
+    <section id="services" className="py-12 mx-10">
       <div className="container mx-auto text-center">
         <h2 className="text-3xl font-bold mb-8 text-violet-700">
           Our Services
